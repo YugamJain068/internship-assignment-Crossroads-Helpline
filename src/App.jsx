@@ -29,7 +29,6 @@ function App() {
           uid: uuidv4(),
           ...result.results[0]
         }));
-        console.log(result);
         setloading(false)
       }
       else {

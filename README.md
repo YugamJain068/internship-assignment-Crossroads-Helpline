@@ -1,16 +1,66 @@
-# React + Vite
+# User Dashboard (React + Redux)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic CRUD dashboard application built using **React**, **Redux Toolkit**, and **Tailwind CSS**.  
+The application fetches random user data from an external API and allows users to **add, edit, delete, and reset users** with a clean admin-style interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Fetch random users from Random User API
+- Display users in a responsive table
+- Add new users
+- Edit user details using a modal popup
+- Delete individual users
+- Reset all users
+- Redux for global state management
+- Tailwind CSS for modern UI styling
+- Loading spinner for better UX
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- Redux Toolkit
+- Tailwind CSS
+- Random User API
+- React Icons
+
+---
+
+## Run Locally
+
+Follow these steps to run the project on your local machine.
+
+### Clone the repository
+```bash
+git clone https://github.com/YugamJain068/internship-assignment-Crossroads-Helpline.git
+```
+
+ ### Navigate to the project directory
+ ```bash
+cd internship-assignment-Crossroads-Helpline
+```
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Start the development server
+```bash
+npm run dev
+```
+
+### Open in browser
+
+```bash
+http://localhost:5173
+```
+---
+
+## Deployment
+
+https://internship-assignment-crossroads-he.vercel.app/
+
